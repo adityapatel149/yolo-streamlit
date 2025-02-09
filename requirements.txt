@@ -1,2 +1,4 @@
-ultralytics
 streamlit
+opencv-python
+ultralytics
+Pillow
