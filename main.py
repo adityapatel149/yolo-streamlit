@@ -43,9 +43,12 @@ VIDEOS_DICT = {
 
 # Model Configuration
 MODEL_DIR = ROOT/'weights'
-DETECTION_MODEL = MODEL_DIR/'yolo11l.pt'
-SEGMENTATION_MODEL = MODEL_DIR/'yolo11l-seg.pt'
-POSE_MODEL = MODEL_DIR/'yolo11l-pose.pt'
+# DETECTION_MODEL = MODEL_DIR/'yolo11l.pt'
+# SEGMENTATION_MODEL = MODEL_DIR/'yolo11l-seg.pt'
+# POSE_MODEL = MODEL_DIR/'yolo11l-pose.pt'
+DETECTION_MODEL = 'yolo11l.pt'
+SEGMENTATION_MODEL = 'yolo11l-seg.pt'
+POSE_MODEL = 'yolo11l-pose.pt'
 
 # Page Layout in Streamlit
 st.set_page_config(
